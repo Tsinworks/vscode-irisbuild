@@ -1,0 +1,62 @@
+{
+  "fileTypes": [
+    "ib",
+    "ibconf"
+  ],
+  "name": "GN",
+  "patterns": [
+    {
+      "comment": "keywords",
+      "match": "\\b(?:if|else|match|for)\\b",
+      "name": "keyword.control.ib"
+    },
+    {
+      "comment": "constants",
+      "match": "\\b(?:true|false)\\b",
+      "name": "constant.language.ib"
+    },
+    {
+      "comment": "numbers",
+      "match": "\\b\\d+\\.?(?:\\d+)?\\b",
+      "name": "constant.numeric.ib"
+    },
+    {
+      "comment": "double quoted string",
+      "match": "\\\"[^\\\"]*\\\"",
+      "name": "string.quoted.double.ib"
+    },
+    {
+      "comment": "comment",
+      "begin": "#",
+      "end": "$",
+      "name": "comment.ib"
+    },
+    {
+      "comment": "operators",
+      "match": "(?:=|==|\\+=|-=|\\+|-)",
+      "name": "keyword.operator.ib"
+    },
+    {
+      "comment": "targets",
+      "match": "\\b(?:action|copy|executable|group|framework|shared_library|source_set|static_library)\\b",
+      "name": "entity.name.tag.ib"
+    },
+    {
+      "comment": "functions",
+      "match": "\\b(?:assert|config|defined|execute|getenv|import|echo|rebase_path|template)\\b",
+      "name": "entity.name.function.ib"
+    },
+    {
+      "comment": "predefined variables",
+      "match": "\\b(?:target_arch|target_os|target_config|target_out_dir)\\b",
+      "name": "variable.parameter.ib"
+    },
+    {
+      "comment": "target variables",
+      "match": "\\b(?:cflags|cflags_asm|cflags_c|cflags_cc|cflags_objc|cflags_objcc|configs|data|data_deps|defines|depfile|deps|include_dirs|inputs|ldflags|lib_dirs|libs|output_extension|output_name|outputs|public|public_configs|public_deps|script|sources|testonly|visibility|contents|output_conversion|rebase|frameworks|walk_keys)\\b",
+      "name": "entity.other.attribute-name.ib"
+    }
+  ],
+  "scopeName": "source.ib",
+  "uuid": "DE419F8C-EC46-4824-87F3-732BD08694DC"
+}

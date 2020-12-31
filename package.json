@@ -1,0 +1,41 @@
+{
+    "name": "vscode-irisbuild",
+    "displayName": "IrisBuild",
+    "description": "IrisBuild Syntax Highlighting for Visual Studio Code",
+    "version": "1.1.0",
+    "publisher": "",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "license": "MIT",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/kaleido3d/vscode-irisbuild.git"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "ib",
+                "aliases": [
+                    "IrisBuild",
+                    "ib"
+                ],
+                "extensions": [
+                    ".ib",
+                    ".ibconf"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ib",
+                "scopeName": "source.ib",
+                "path": "./IB.tmLanguage.json"
+            }
+        ]
+    }
+}
