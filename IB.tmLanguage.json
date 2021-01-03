@@ -43,7 +43,7 @@
     },
     {
       "comment": "functions",
-      "match": "\\b(?:assert|config|defined|execute|getenv|import|echo|rebase_path|template)\\b",
+      "match": "\\b(?:assert|config|defined|execute|getenv|import|list_files|echo|rebase_path|template)\\b",
       "name": "entity.name.function.ib"
     },
     {
