@@ -89,7 +89,7 @@
       <key>comment</key>
       <string>target variables</string>
       <key>match</key>
-      <string>\b(?:cflags_asm|cflags|cflags_c|cflags_cc|cflags_objc|cflags_objcc|ldflags|configs|data|data_deps|defines|depfile|deps|include_dirs|frameworks|lib_dirs|libs|output_extension|output_name|outputs|public|public_configs|public_deps|script|sources|testonly|visibility|contents|output_conversion|rebase|data_keys|walk_keys)\b</string>
+      <string>\b(?:cflags_asm|cflags|cflags_c|cflags_cc|cflags_objc|cflags_objcc|ldflags|configs|data|data_deps|defines|depfile|deps|on_init|on_pre_build|on_post_build|include_dirs|frameworks|lib_dirs|libs|output_extension|output_name|outputs|public|public_configs|public_deps|script|sources|testonly|visibility|contents|output_conversion|rebase|data_keys|walk_keys)\b</string>
       <key>name</key>
       <string>entity.other.attribute-name.ib</string>
     </dict>
