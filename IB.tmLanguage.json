@@ -53,7 +53,7 @@
     },
     {
       "comment": "target variables",
-      "match": "\\b(?:cflags|cflags_asm|cflags_c|cflags_cc|cflags_objc|cflags_objcc|configs|data|data_deps|defines|depfile|deps|include_dirs|on_init|on_pre_build|on_post_build|inputs|ldflags|lib_dirs|libs|output_extension|output_name|outputs|public|public_configs|public_deps|script|sources|compileSdkVersion|defaultConfig|applicationId|minSdkVersion|targetSdkVersion|java|srcDirs|jnis|jarLibs|testonly|visibility|contents|output_conversion|rebase|frameworks|walk_keys)\\b",
+      "match": "\\b(?:cflags|cflags_asm|cflags_c|cflags_cc|cflags_objc|cflags_objcc|configs|data|data_deps|defines|depfile|deps|include_dirs|on_init|on_pre_build|on_post_build|inputs|ldflags|lib_dirs|libs|output_extension|output_name|outputs|public|public_configs|public_deps|force_clang|script|sources|compileSdkVersion|defaultConfig|applicationId|minSdkVersion|targetSdkVersion|java|srcDirs|jnis|jarLibs|testonly|visibility|contents|output_conversion|rebase|frameworks|walk_keys)\\b",
       "name": "entity.other.attribute-name.ib"
     }
   ],
